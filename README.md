@@ -1,8 +1,38 @@
-# React + Vite
+# C317 - Aplicativo de Pesquisa Captalis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o projeto **Captalis**, um aplicativo de pesquisa desenvolvido para facilitar a criação, edição e análise de pesquisas.
 
-Currently, two official plugins are available:
+## Instruções para Executar o Frontend (React com Vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para iniciar o frontend do projeto em React com Vite, siga os passos abaixo:
+
+1. Instale as dependências com o comando: npm i
+
+2. Inicie o servidor de desenvolvimento com o comando: npm run dev
+
+O frontend estará disponível localmente no navegador em http://localhost:5173 após esses passos.
+
+## Instruções para Executar o JSON Server
+
+O JSON Server é utilizado para simular o backend durante o desenvolvimento. Siga os passos abaixo para configurá-lo e executá-lo:
+
+1. Inicie o JSON Server com o comando: npm run dev
+
+2. Certifique-se de que o arquivo db.json está configurado corretamente com os dados iniciais necessários para o projeto. Um exemplo de estrutura pode ser:
+   {
+    "pesquisas": [],
+    "usuarios": [{
+      "id": "user2",
+      "email": "user2@user.com",
+      "password": "user",
+      "tipo": "user",
+      "respostas": []
+    },
+    {
+      "id": "admin1",
+      "email": "admin1@admin.com",
+      "password": "admin",
+      "tipo": "admin"
+    }]
+  }
+ 
