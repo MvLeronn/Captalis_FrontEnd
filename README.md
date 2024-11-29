@@ -16,23 +16,14 @@ O frontend estará disponível localmente no navegador em http://localhost:5173 
 
 O JSON Server é utilizado para simular o backend durante o desenvolvimento. Siga os passos abaixo para configurá-lo e executá-lo:
 
-1. Inicie o JSON Server com o comando: npm run dev
+1. Inicie o JSON Server com o comando: npm run server
 
 2. Certifique-se de que o arquivo db.json está configurado corretamente com os dados iniciais necessários para o projeto. Um exemplo de estrutura pode ser:
-   {
-    "pesquisas": [],
-    "usuarios": [{
-      "id": "user2",
-      "email": "user2@user.com",
-      "password": "user",
-      "tipo": "user",
-      "respostas": []
-    },
-    {
-      "id": "admin1",
-      "email": "admin1@admin.com",
-      "password": "admin",
-      "tipo": "admin"
-    }]
-  }
+   '''{
+     "pesquisas": [],
+     "usuarios": [],
+   }
+   '''
+
+O backend estará disponível localmente no navegador em http://localhost:3000 após esse passo.
  
