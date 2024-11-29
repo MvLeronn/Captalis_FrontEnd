@@ -21,7 +21,7 @@ O JSON Server é utilizado para simular o backend durante o desenvolvimento. Sig
 2. Certifique-se de que o arquivo db.json está configurado corretamente com os dados iniciais necessários para o projeto. Um exemplo de estrutura pode ser:
    {
      "pesquisas": [],
-     "usuarios": [],
+     "usuarios": []
    }
 
 O backend estará disponível localmente no navegador em http://localhost:3000 após esse passo.
