@@ -1,0 +1,99 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.modal p{
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.modal h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.pergunta-container {
+  margin-bottom: 1.5rem;
+}
+
+.alternativas-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.alternativa-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.alternativa-label input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.modal-footer {
+  margin-top: 1.5rem;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.finalizar-btn, .fechar-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.finalizar-btn {
+  background-color: #252884;
+  color: white;
+  margin-right: 10px;
+  
+}
+
+.finalizar-btn:hover {
+  background-color: #1e1f6a;
+}
+
+.fechar-btn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.fechar-btn:hover {
+  background-color: #e0e0e0;
+}
+

@@ -1,0 +1,37 @@
+.visao-geral-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.visao-geral-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.grafico-container {
+    width: 45%;
+}
+
+.avisos {
+    width: 45%;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.grafico-container canvas {
+    max-width: 100%;
+    height: auto;
+}

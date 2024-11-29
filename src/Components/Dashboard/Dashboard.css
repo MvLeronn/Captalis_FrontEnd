@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Certifique-se de que não há barra de rolagem extra */
+  }
+  
+  /* Estilos do Dashboard */
+  .dashboard {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;  /* Certifique-se de que cubra a tela inteira */
+    top: 0;
+    left: 0;
+  }
+  
+  /* Menu lateral */
+  .sidebar {
+    width: 300px;
+    height: 100vh;   /* Certifique-se que a sidebar tenha a altura total */
+    background-color: #252782;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 12px 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .sidebar button {
+    display: flex;
+    align-items: center;
+    padding: 12px 11px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .sidebar a svg, .sidebar button svg {
+    margin-right: 10px; /* Ajuste esse valor para mover o ícone mais à esquerda */
+  }
+  
+  /* Conteúdo principal */
+  .main-content {
+    flex: 1;
+    padding: 20px; 
+    background-color: #f0f2f5;
+    overflow-y: auto;
+  }
+
+  .content-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #252782;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,254 @@
+{
+  "pesquisas": [
+    {
+      "id": "6374",
+      "titulo": "Avaliação de Desempenho e Bem-Estar Organizacional",
+      "descricao": "Estaaaaa pesquisa tem como objetivo entender melhor a sua experiência na empresa, avaliar o desempenho individual e identificar áreas onde podemos aprimorar o ambiente de trabalho e a colaboração. Suas respostas nos ajudarão a fortalecer a cultura organizacional, apoiar seu desenvolvimento profissional e promover um ambiente de trabalho equilibrado e motivador. A pesquisa é confidencial e será usada para guiar melhorias em nossas práticas internas, garantindo que todos tenham as ferramentas e o suporte necessários para alcançar seu potencial.\n\nAgradecemos pela sua participação e sinceridade nas respostas!",
+      "perguntas": [
+        {
+          "id": 1,
+          "descricao": "Você acredita que suas metas de desempenho são claras e alcançáveis?",
+          "alternativas": [
+            {
+              "id": 1,
+              "texto": "Sim, estão muito claras e são alcançáveis"
+            },
+            {
+              "id": 2,
+              "texto": "Em geral, sim, mas poderiam ser mais detalhadas"
+            },
+            {
+              "id": 3,
+              "texto": "Às vezes, não tenho certeza dos objetivos exatos"
+            },
+            {
+              "id": 4,
+              "texto": "Não, as metas não estão claras para mim"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descricao": "Como você avalia seu progresso em relação às metas estabelecidas para este período?",
+          "alternativas": [
+            {
+              "id": 1,
+              "texto": "Excelente, superando as expectativas"
+            },
+            {
+              "id": 2,
+              "texto": "Bom, atendendo às expectativas"
+            },
+            {
+              "id": 3,
+              "texto": "Regular, há alguns desafios que dificultam o progresso"
+            },
+            {
+              "id": 4,
+              "texto": "Ruim, estou muito abaixo do esperado"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descricao": "Como você avalia a colaboração com sua equipe?",
+          "alternativas": [
+            {
+              "id": 1,
+              "texto": "Excelente, a colaboração é muito boa"
+            },
+            {
+              "id": 2,
+              "texto": "Boa, a maioria colabora bem"
+            },
+            {
+              "id": 3,
+              "texto": "Regular, poderia melhorar em algumas áreas"
+            },
+            {
+              "id": 4,
+              "texto": "Fraca, há pouca colaboração entre os membros"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "descricao": "Você se sente confortável em compartilhar ideias e sugestões com sua equipe?",
+          "alternativas": [
+            {
+              "id": 1,
+              "texto": "Sempre"
+            },
+            {
+              "id": 2,
+              "texto": "Na maioria das vezes"
+            },
+            {
+              "id": 3,
+              "texto": "Raramente"
+            },
+            {
+              "id": 4,
+              "texto": "Nunca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4bc9",
+      "titulo": "Pesquisa 2",
+      "descricao": "Desc 2",
+      "perguntas": [
+        {
+          "id": 1,
+          "descricao": "2+2",
+          "alternativaEscolhida": null,
+          "alternativas": [
+            {
+              "id": 1,
+              "texto": "2"
+            },
+            {
+              "id": 2,
+              "texto": "4"
+            },
+            {
+              "id": 3,
+              "texto": "6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ffa",
+      "titulo": "pesq6",
+      "descricao": "pesquisa 6",
+      "perguntas": [
+        {
+          "id": 1,
+          "descricao": "2+2",
+          "alternativaEscolhida": null,
+          "alternativas": [
+            {
+              "id": 1,
+              "texto": "4"
+            },
+            {
+              "id": 2,
+              "texto": "7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "user1",
+      "email": "user1@user.com",
+      "password": "user",
+      "tipo": "user",
+      "respostas": [
+        {
+          "pesquisaId": "6374",
+          "respostasPerguntas": [
+            {
+              "perguntaId": 1,
+              "alternativaEscolhida": 1
+            },
+            {
+              "perguntaId": 2,
+              "alternativaEscolhida": 1
+            },
+            {
+              "perguntaId": 3,
+              "alternativaEscolhida": 1
+            },
+            {
+              "perguntaId": 4,
+              "alternativaEscolhida": 1
+            }
+          ]
+        },
+        {
+          "pesquisaId": "4bc9",
+          "respostasPerguntas": [
+            {
+              "perguntaId": 1,
+              "alternativaEscolhida": 2
+            }
+          ]
+        },
+        {
+          "pesquisaId": "ba4f",
+          "respostasPerguntas": [
+            {
+              "perguntaId": 1,
+              "alternativaEscolhida": 2
+            }
+          ]
+        },
+        {
+          "pesquisaId": "96cb",
+          "respostasPerguntas": [
+            {
+              "perguntaId": 1,
+              "alternativaEscolhida": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user2",
+      "email": "user2@user.com",
+      "password": "user",
+      "tipo": "user",
+      "respostas": [
+        {
+          "pesquisaId": "6374",
+          "respostasPerguntas": [
+            {
+              "perguntaId": 1,
+              "alternativaEscolhida": 1
+            },
+            {
+              "perguntaId": 2,
+              "alternativaEscolhida": 1
+            },
+            {
+              "perguntaId": 3,
+              "alternativaEscolhida": 2
+            },
+            {
+              "perguntaId": 4,
+              "alternativaEscolhida": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "admin1",
+      "email": "admin1@admin.com",
+      "password": "admin",
+      "tipo": "admin"
+    },
+    {
+      "id": "user1731032863448",
+      "email": "user3@user.com",
+      "password": "admin",
+      "tipo": "user",
+      "respostas": []
+    },
+    {
+      "id": "user1731034299018",
+      "email": "user4@user.com",
+      "password": "admin",
+      "tipo": "user",
+      "respostas": []
+    }
+  ]
+}

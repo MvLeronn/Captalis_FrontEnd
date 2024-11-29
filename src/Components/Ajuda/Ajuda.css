@@ -1,0 +1,8 @@
+.add-pesquisa label{
+    display: block;
+    padding: 10px;
+}
+
+.add-pesquisa span{
+    padding-right: 10px;
+}
