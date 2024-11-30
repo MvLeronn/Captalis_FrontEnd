@@ -1,4 +1,4 @@
-# C317 - Aplicativo de Pesquisa Captalis
+# Aplicativo de Pesquisa Captalis
 
 Este repositório contém o projeto **Captalis**, um aplicativo de pesquisa desenvolvido para facilitar a criação, edição e análise de pesquisas.
 
